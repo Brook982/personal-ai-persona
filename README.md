@@ -7,7 +7,7 @@
 
 > [!TIP]
 > **三条路，自选一条**
-> **想先读** → 直接往下翻；或到 [Releases](https://github.com/Brook982/personal-ai-persona/releases) 下载整本 **《操作说明书-完整版.md》**（13 章合并成一份，离线可读）。
+> **想先读** → 直接往下翻；或到 [Releases](https://github.com/Brook982/personal-ai-persona/releases) 下载整本 **《操作说明书 · 完整版》**（13 章合并成一份，离线可读）。
 > **想直接装** → 给本仓库点一个 **Star**，几秒内自动收到配套懒人包（私有仓）的访问邀请。
 > **想收更新** → 点 Watch → Custom → 只勾 Releases，以后出新版自动通知你。
 
