@@ -1,0 +1,21 @@
+name: Invite stargazers to lazy pack
+
+# 给本仓库点 Star 的用户，自动收到私有仓 personal-ai-persona-lazypack 的只读协作邀请。
+# 依赖仓库 Secret：INVITE_TOKEN（拥有 lazypack 仓库管理权限的 token）。
+
+on:
+  watch:
+    types: [started]
+
+permissions: {}
+
+jobs:
+  invite:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send collaboration invitation
+        env:
+          GH_TOKEN: ${{ secrets.INVITE_TOKEN }}
+        run: |
+          gh api -X PUT "repos/Brook982/personal-ai-persona-lazypack/collaborators/${{ github.actor }}" \
+            -f permission=pull --silent
