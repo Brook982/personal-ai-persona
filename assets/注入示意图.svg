@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 470" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif">
+  <rect width="680" height="470" fill="#ffffff"/>
+
+  <!-- 标题 -->
+  <text x="340" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#24292f">每开一个新对话，平台先往 AI 脑子里放什么？（WorkBuddy 实测）</text>
+
+  <!-- 左：用户 -->
+  <rect x="18" y="95" width="118" height="92" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="77" y="132" text-anchor="middle" font-size="14" font-weight="bold" fill="#24292f">你</text>
+  <text x="77" y="154" text-anchor="middle" font-size="12" fill="#57606a">开一个新对话</text>
+
+  <!-- 箭头1 -->
+  <line x1="140" y1="141" x2="168" y2="141" stroke="#8c959f" stroke-width="2"/>
+  <polygon points="168,136 178,141 168,146" fill="#8c959f"/>
+
+  <!-- 中：注入面板 -->
+  <rect x="182" y="62" width="316" height="158" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="340" y="86" text-anchor="middle" font-size="13" font-weight="bold" fill="#24292f">平台自动注入（每一轮都带）</text>
+  <g font-size="11.5" fill="#1f3a5f">
+    <rect x="196" y="98"  width="140" height="24" rx="6" fill="#eef3fb" stroke="#b6c8e8"/><text x="204" y="114">云端画像　21KB</text>
+    <rect x="344" y="98"  width="140" height="24" rx="6" fill="#eef3fb" stroke="#b6c8e8"/><text x="352" y="114">SOUL　3.0KB</text>
+    <rect x="196" y="128" width="140" height="24" rx="6" fill="#eef3fb" stroke="#b6c8e8"/><text x="204" y="144">USER 画像　5.4KB</text>
+    <rect x="344" y="128" width="140" height="24" rx="6" fill="#eef3fb" stroke="#b6c8e8"/><text x="352" y="144">IDENTITY　1.2KB</text>
+    <rect x="196" y="158" width="140" height="24" rx="6" fill="#eef3fb" stroke="#b6c8e8"/><text x="204" y="174">跨项目 MEMORY　1.4KB</text>
+    <rect x="344" y="158" width="140" height="24" rx="6" fill="#eef3fb" stroke="#b6c8e8"/><text x="352" y="174">工作区摘要　2.4KB</text>
+    <rect x="196" y="188" width="140" height="24" rx="6" fill="#eef3fb" stroke="#b6c8e8"/><text x="204" y="204">身份卡　2.6KB</text>
+    <rect x="344" y="188" width="140" height="24" rx="6" fill="#eef3fb" stroke="#b6c8e8"/><text x="352" y="204">自定义指令　…</text>
+  </g>
+
+  <!-- 箭头2 -->
+  <line x1="502" y1="141" x2="530" y2="141" stroke="#8c959f" stroke-width="2"/>
+  <polygon points="530,136 540,141 530,146" fill="#8c959f"/>
+
+  <!-- 右：AI 开口 -->
+  <rect x="544" y="95" width="118" height="92" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="603" y="126" text-anchor="middle" font-size="14" font-weight="bold" fill="#24292f">AI 开口</text>
+  <text x="603" y="148" text-anchor="middle" font-size="11.5" fill="#c0392b">带着 ≈45.6KB</text>
+  <text x="603" y="166" text-anchor="middle" font-size="11" fill="#57606a">估计一半白吃</text>
+
+  <!-- 体积账 -->
+  <rect x="18" y="242" width="644" height="34" rx="8" fill="#e8f6ee" stroke="#34a06a"/>
+  <text x="340" y="264" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a7a4a">重构后：同一批常驻件收到 ≈10.9KB（−76%），没丢任何在干活的信息</text>
+
+  <!-- 三个病灶 -->
+  <g font-size="12">
+    <rect x="18"  y="300" width="204" height="120" rx="10" fill="#fff9f2" stroke="#e0b070"/>
+    <text x="120" y="328" text-anchor="middle" font-weight="bold" fill="#9a5b00">病灶一：重复</text>
+    <text x="120" y="352" text-anchor="middle" fill="#57606a">"我是谁"写了 4 遍</text>
+    <text x="120" y="372" text-anchor="middle" fill="#57606a">"红线"写了 5 遍</text>
+    <text x="120" y="392" text-anchor="middle" fill="#57606a">"待办"记了 3 本账</text>
+
+    <rect x="238" y="300" width="204" height="120" rx="10" fill="#fff9f2" stroke="#e0b070"/>
+    <text x="340" y="328" text-anchor="middle" font-weight="bold" fill="#9a5b00">病灶二：只增不剪</text>
+    <text x="340" y="352" text-anchor="middle" fill="#57606a">办结项、版本史往上摞</text>
+    <text x="340" y="372" text-anchor="middle" fill="#57606a">没有任何保鲜机制</text>
+    <text x="340" y="392" text-anchor="middle" fill="#57606a">写好就沉底</text>
+
+    <rect x="458" y="300" width="204" height="120" rx="10" fill="#fff9f2" stroke="#e0b070"/>
+    <text x="560" y="328" text-anchor="middle" font-weight="bold" fill="#9a5b00">病灶三：正本错位</text>
+    <text x="560" y="352" text-anchor="middle" fill="#57606a">该装魂的槽装着模板</text>
+    <text x="560" y="372" text-anchor="middle" fill="#57606a">该指路的槽装着副本</text>
+    <text x="560" y="392" text-anchor="middle" fill="#57606a">画像里一条信息过期 3 个月</text>
+
+    <text x="340" y="448" text-anchor="middle" fill="#8c959f" font-size="11">↑ 最狠的一条证据：画像写着某同事"在另一平台"——过期三个月，没有任何人发现</text>
+  </g>
+</svg>
